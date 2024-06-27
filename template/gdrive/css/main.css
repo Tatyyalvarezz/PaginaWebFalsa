@@ -1,0 +1,164 @@
+body{
+    background-color: black;
+}
+
+img{
+    margin-top: 170px;
+    margin-left: 65px;
+}
+
+.titulo{
+    position: absolute;
+    margin-left: 590px;
+    margin-top: 25px;
+}
+
+h1{
+    color: rgb(231, 228, 228);
+    font-size: 65px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 880;
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap) format('woff2'),
+         url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap) format('woff');
+}
+.subtitulo{
+    position: absolute;
+    margin-left: 590px;
+    margin-top: -290px;
+}
+h2{
+    color: rgb(231, 228, 228); 
+    font-size: 33px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 880;
+}
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white; /* Color de fondo del botón */
+    color: rgb(74, 72, 72); /* Color del texto del botón */
+    text-decoration: none;
+    border: none;
+    border-radius: 20px; /* Borde redondeado */
+    font-size: 16px;
+    margin: 10px; /* Espacio entre botones */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición al pasar el ratón */
+    margin-left: 90px;
+    width: 260px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 548;
+}
+.google{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -200px;
+}
+.boton2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white; /* Color de fondo del botón */
+    color: rgb(9, 9, 9); /* Color del texto del botón */
+    text-decoration: none;
+    border: none;
+    border-radius: 20px; /* Borde redondeado */
+    font-size: 16px;
+    margin: 10px; /* Espacio entre botones */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición al pasar el ratón */
+    margin-left: 90px;
+    width: 260px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 748;
+}
+.apple{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -155px;
+}
+.boton3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(12, 142, 194); /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    text-decoration: none;
+    border: none;
+    border-radius: 20px; /* Borde redondeado */
+    font-size: 16px;
+    margin: 10px; /* Espacio entre botones */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición al pasar el ratón */
+    margin-left: 90px;
+    width: 260px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 748;
+}
+.cuenta{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -80px;
+}
+.terminos{
+    position: absolute;
+    margin-left: 590px;
+    margin-top: -35px;
+}
+.condiciones {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.pregunta{
+    position: absolute;
+    margin-left: 590px;
+    margin-top: 40px;
+}
+h3{
+    color: rgb(231, 228, 228); 
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 580;  
+}
+.botoncito {
+    display: inline-block;
+    padding: 10px 20px; /* Ajusta el padding según sea necesario */
+    background-color: transparent; /* Color de fondo del botón */
+    color: rgb(12, 142, 194); /* Color del texto del botón */
+    text-decoration: none;
+    border: none;
+    border-radius: 20px; /* Borde redondeado */
+    font-size: 14px; /* Tamaño de la fuente */
+    margin: 10px; /* Espacio entre botones */
+    margin-left: 90px;
+    width: 260px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 748;
+    border: 1px solid gray;
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Agrega una transición suave para el cambio de color de fondo */
+}
+
+.botoncito:hover {
+    background-color: rgba(12, 142, 194, 0.283); /* Color de fondo al pasar el ratón por encima */
+}
+.sesion{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 88px;
+}
+
+.botones{
+    position: relative;
+    left: -70px;
+}
